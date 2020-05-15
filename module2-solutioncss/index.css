@@ -1,0 +1,117 @@
+*{
+	box-sizing: border-box;
+	margin: 5px;
+}
+body{
+	width: 100%;
+}
+.text-center{
+	text-align: center;
+	margin-top: 30px;
+}
+.container{
+	border:2px solid black;
+	float: left;
+	position: relative;
+	padding-top: 25px;
+	height: 150px;
+	background-color: gray;
+	margin-top: 50px;
+	border-collapse: collapse;
+}
+.container1{
+	border:2px solid black;
+	float: left;
+	position: relative;
+	padding-top: 25px;
+	height: 150px;
+	background-color: gray;
+	margin-top: 50px;
+	border-collapse: collapse;
+}
+.container2{
+	border:2px solid black;
+	float: left;
+	position: relative;
+	padding-top: 25px;
+	height: 150px;
+	background-color: gray;
+	margin-top: 50px;
+	border-collapse: collapse;
+}
+
+.heading{
+	border: 1px solid black;
+	width: 120px;
+	position: absolute;
+	right: 0px;
+	top:0px;
+	background-color: #FF3E4D;
+	margin-top: 0px;
+	margin-right: 0px;
+	border-collapse: collapse;
+	text-align: center;
+}
+.heading1{
+	border: 1px solid black;
+	width: 120px;
+	position: absolute;
+	right: 0px;
+	top:0px;
+	background-color: #D63031;
+	margin-top: 0px;
+	margin-right: 0px;
+	border-collapse: collapse;
+	text-align: center;
+}
+.heading2{
+	border: 1px solid black;
+	width: 120px;
+	position: absolute;
+	right: 0px;
+	top:0px;
+	background-color: #badc57;
+	margin-top: 0px;
+	margin-right: 0px;
+	border-collapse: collapse;
+	text-align: center;
+}
+@media(min-width:992px ){
+.container{
+width:32%;
+}
+.container1{
+width:32%;
+}
+.container2{
+width:32%;
+}
+}
+@media(min-width:768px)and (max-width: 991px){
+.container{
+width:48%;
+}
+.container1{
+width:48%;
+}
+.container2{
+width:97%;
+}
+}
+@media(max-width: 767px){
+.container{
+width:90%;
+margin-right: 20px;
+margin-left: 20px;
+}
+.container1{
+width:90%;
+margin-right: 20px;
+margin-left: 20px;
+}
+.container2{
+width:90%;
+margin-right: 20px;
+margin-left: 20px;
+}
+}
